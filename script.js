@@ -4,6 +4,7 @@
 // Refrigerante/agua - 1000 ml por pessoa + 6 horas = 1500 ml
 // Crianças valem por 0.5
 
+//FUNÇÃO calculos abaixo
 let inputAdultos = document.getElementById("adultos");
 let inputCriancas = document.getElementById("criancas");
 let inputDuracao = document.getElementById("duracao");
