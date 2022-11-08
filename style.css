@@ -14,7 +14,7 @@ body {
     margin: auto;
     padding: 20px;
     background-color: aquamarine;
-    opacity: 0.75;
+    opacity: 0.5; /*mudar para 0.75*/
     border-radius: 10px;
 }
 

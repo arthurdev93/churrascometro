@@ -3,7 +3,8 @@
 // Cerveja - 1200ml por pessoa + de 6 horas = 2000 ml
 // Refrigerante/agua - 1000 ml por pessoa + 6 horas = 1500 ml
 // Crianças valem por 0.5
-function card(this) {
-    let c = document.getElementsByClassName("container");
-    c.style.opacity = "none";
+
+//abaixo, função zerar opacidade do card
+function card(container) {
+    container.style.opacity = "none";
 } 
