@@ -8,18 +8,29 @@ html {
 body {
     margin-top: 20px;
 }
+
 .container {
     font-family: Arial, Helvetica, sans-serif;
     max-width: 300px;
     margin: auto;
     padding: 20px;
-    background-color: aquamarine;
-    opacity: 0.5; /*mudar para 0.75*/
+    background-color: rgba(78, 224, 230, 0.959);
+    opacity: 0.935; 
     border-radius: 10px;
 }
 
 h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 38px;
     text-shadow: 2px 2px 2px gray;
+    box-sizing: border-box;
+}
+h5 {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-size: 15.2px;
+    
 }
 
 input {
