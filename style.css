@@ -1,7 +1,31 @@
+html {
+    margin: 0;
+    padding: 0;
+    background-image: url(./assets/pexels-min-an-1482803.jpg);
+    background-size: cover;
+}
+
+body {
+    margin-top: 20px;
+}
 .container {
+    font-family: Arial, Helvetica, sans-serif;
     max-width: 300px;
     margin: auto;
     padding: 20px;
-    background-image: url(./assets/pexels-min-an-1482803.jpg);
+    background-color: aquamarine;
+    opacity: 0.75;
     border-radius: 10px;
+}
+
+h1 {
+    text-shadow: 2px 2px 2px gray;
+}
+
+input {
+    width: 100%;
+    display: block;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
 }
